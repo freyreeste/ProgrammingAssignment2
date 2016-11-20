@@ -10,7 +10,7 @@ set <- function(y) {
 get <- function() x ## return the matrix x
 setinverse <- function(inverse) m <<- inverse ## set the cache m equal to the inverse of the matrix x
 getinverse <- function() m ## return the cached inverse of x
-list(set = set, get = get, setmean = setmean,getmean = getmean)
+list(set = set, get = get, setinverse = setinverse,getinverse = getinverse)
 
 }
 
